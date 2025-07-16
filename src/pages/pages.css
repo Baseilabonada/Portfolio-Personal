@@ -1,0 +1,283 @@
+#projects {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+}
+
+.title-projects {
+  text-align: center;
+  color: #1976d2;
+  font-size: 2rem;
+  margin-bottom: 80px;
+  transform: translatey(30px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  align-items: stretch;
+  padding: 0 20px;
+}
+
+/* اختياري: تأثير لطيف عند تمرير الماوس */
+.grid-projects .card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
+.containe {
+  background-color: #ebebeb;
+  display: flex;
+  height: 98vh;
+  text-align: center;
+  justify-content: center; /* أفقياً */
+  align-items: center; /* عمودياً */
+  transition: transform 0.5s ease;
+  transform: translateY(0px);
+}
+html {
+  scroll-behavior: smooth;
+}
+b {
+  color: #1976d2;
+}
+.half {
+  flex: 1;
+  transition: transform 0.5s ease;
+}
+.half:hover {
+  transform: translateY(-25px);
+}
+.about-title {
+  color: #1976d2;
+  text-align: center;
+  margin-top: 170px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.p-about {
+  font-size: x-small;
+  margin: 10px;
+  text-align: center;
+  width: 90vh;
+}
+.image-about {
+  margin-top: 100px;
+  width: 250px;
+  border-radius: 50px;
+  align-items: center;
+  margin-left: 90px;
+}
+.btn-back {
+  background-color: #1976d2;
+  color: white;
+  border-radius: 5px;
+  border: solid 2px white;
+  margin-top: 20px;
+}
+.btn-back a {
+  color: white;
+}
+
+.container-skills {
+  background-color: #ebebeb;
+  display: flex;
+  height: 90vh;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+.half-skills { 
+  flex: 1;
+  transform: translateY(60px);
+  transition: transform 0.5s ease;
+  margin: 10px;
+  padding: 25px;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(206, 224, 239);
+}
+.half-skills:hover {
+  box-shadow: 0 6px 12px rgba(57, 27, 227, 0.5);
+}
+
+.title-skill {
+  transform: translateY(7rem);
+  display: flex;
+  justify-content: center;
+  color: #1976d2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.conteiner-project {
+  background-color: #ebebeb;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-project {
+  transition: transform 0.5s ease;
+}
+.card-project:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.half-project {
+  flex: 1;
+  transition: transform 0.5s ease;
+  padding: 40px;
+  max-width: 40%;
+  height: 60vh;
+}
+
+.contenier-content {
+  background-color: #ebebeb;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.title-content {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #1976d2;
+  transform: translatey(105px);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+form{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+form:hover{
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+
+}
+.sec {
+  flex: 1;
+  padding: 10rem;
+  padding: 5rem;
+  margin-left: 20px;
+  margin-top: 100px;
+  
+}
+.btn{
+  display: block;
+  margin: 10px;
+  width: auto;
+  padding: 10px;
+  color: #1976d2;
+  background-color: #ebebeb;
+  margin-left: 100px;
+  border-radius: 8px;
+}
+.input{
+  margin: 20px;
+  padding: 6px;
+}
+
+@media (max-width: 500px) {
+  /* جعل الحاويات عمودية */
+  .containe,
+  .container-skills,
+  .conteiner-project,
+  .contenier-content {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  /* تضييق وتوسيط العناصر داخل الحاويات */
+  .half,
+  .half-skills,
+  .half-project,
+  .sec {
+    flex: unset;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    height: auto;
+  }
+
+  /* تصغير الصورة */
+  .image-about {
+    width: 100px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* تصغير العناوين والنصوص */
+  .title-projects,
+  .title-content,
+  .title-skill,
+  .about-title {
+    font-size: 1.2rem;
+    margin-top: 40px;
+    transform: translateY(0);
+  }
+
+  .p-about {
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  /* تعديل زر الرجوع */
+  .btn-back {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  /* تعديل زر الإرسال */
+  .btn {
+    margin-left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  /* تقليل حجم الإدخالات */
+  .input {
+    width: 90%;
+    padding: 6px;
+    margin: 10px auto;
+  }
+
+  /* تعديل شبكة المشاريع */
+  .grid-projects {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .card-project,
+  .card {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.div-skill a{
+  text-decoration: none;
+  color: black;
+}
