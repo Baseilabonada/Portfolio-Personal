@@ -15,7 +15,7 @@ const About = () => {
         <p className="p-about">
           I’m a creative{" "}
           <a href="/#">
-            <b>Front-End Developer</b>
+            <b>Front-End Developer</b> 
           </a>{" "}
           with experience in both <b>front-end technologies. </b> I love to
           bring designs to life using <b>HTML, CSS, and JavaScript,</b> and I

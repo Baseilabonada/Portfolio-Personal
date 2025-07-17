@@ -13,7 +13,7 @@ import CallIcon from "@mui/icons-material/Call";
 import './componentstyle.css'
 export default function AlignItemsList() {
   return (
-    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
+    <List sx={{ width: "52rem",height:'25rem' ,borderRadius:'5PX', maxWidth: 400, bgcolor: "background.paper",backgroundColor:'#ebebeb',marginTop:'50px' }}>
       <a 
       className="a"
         href="https://www.facebook.com/share/1BwFahj8ii/?mibextid=wwXIfr"

@@ -52,7 +52,7 @@ function DrawerAppBar(props) {
       <AppBar component="nav">
         <Toolbar>
           <Typography
-            variant="h6"
+            variant="h5"
             component="div"
             sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
           >
@@ -64,7 +64,7 @@ function DrawerAppBar(props) {
               className="btn-h"
                 key={item.label}
                 href={item.href}
-                sx={{ color: "#fff", fontSize: "14px" }}
+                sx={{ color: "#fff", fontSize: "20px" }}
               >
                 {item.label}
               </Button>
@@ -92,7 +92,7 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
+      <Box component="main" sx={{ p: 10 }}>
         <Toolbar />
         <div className="container">
           <div className="div-title">

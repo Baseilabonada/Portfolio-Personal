@@ -6,7 +6,7 @@
 .title-projects {
   text-align: center;
   color: #1976d2;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 80px;
   transform: translatey(30px);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,12 +31,11 @@
 .containe {
   background-color: #ebebeb;
   display: flex;
-  height: 98vh;
+  height: 100vh;
   text-align: center;
   justify-content: center; /* أفقياً */
   align-items: center; /* عمودياً */
   transition: transform 0.5s ease;
-  transform: translateY(0px);
 }
 html {
   scroll-behavior: smooth;
@@ -52,21 +51,20 @@ b {
   transform: translateY(-25px);
 }
 .about-title {
+  font-size: 2.5rem;
   color: #1976d2;
   text-align: center;
-  margin-top: 170px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .p-about {
-  font-size: x-small;
-  margin: 10px;
+  margin: 50px;
   text-align: center;
   width: 90vh;
 }
 .image-about {
-  margin-top: 100px;
-  width: 250px;
+  margin-top: 4rem;
+  width: 410px;
   border-radius: 50px;
   align-items: center;
   margin-left: 90px;
@@ -77,29 +75,31 @@ b {
   border-radius: 5px;
   border: solid 2px white;
   margin-top: 20px;
+  width: 4rem;
+  height: 4rem;
 }
 .btn-back a {
   color: white;
 }
 
 .container-skills {
-  background-color: #ebebeb;
   display: flex;
-  height: 90vh;
-  
   text-align: center;
   justify-content: center;
   align-items: center;
   transition: transform 0.5s ease;
+  height: 90vh;
+
 }
+
 .half-skills { 
   flex: 1;
   transform: translateY(60px);
   transition: transform 0.5s ease;
-  margin: 10px;
-  padding: 25px;
-  height: 7rem;
-  width: 7rem;
+  margin: 33px;
+  padding: 50px;
+  height: 12rem;
+  width: 12rem;
   border-radius: 10px;
   text-align: center;
   background-color: rgb(206, 224, 239);
@@ -109,7 +109,8 @@ b {
 }
 
 .title-skill {
-  transform: translateY(7rem);
+  transform: translateY(9rem);
+  font-size: 3.5rem;
   display: flex;
   justify-content: center;
   color: #1976d2;
@@ -140,7 +141,6 @@ b {
 }
 
 .contenier-content {
-  background-color: #ebebeb;
   display: flex;
   height: 100vh;
   text-align: center;
@@ -153,15 +153,19 @@ b {
   display: flex;
   text-align: center;
   justify-content: center;
+  font-size: 3rem;
   color: #1976d2;
   transform: translatey(105px);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 form{
-  background-color: white;
+  background-color: #ebebeb;
   padding: 20px;
   border-radius: 8px;
+  width: 30rem;
+  height: 25rem;
+
 }
 form:hover{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
@@ -170,24 +174,40 @@ form:hover{
 .sec {
   flex: 1;
   padding: 10rem;
-  padding: 5rem;
-  margin-left: 20px;
-  margin-top: 100px;
-  
+  margin-right: 100px;
+  margin-top: 80px;
+
+}
+.sec1 {
+  flex: 1;
+  padding: 7rem;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+body {
+  overflow-x: hidden;
 }
 .btn{
   display: block;
   margin: 10px;
   width: auto;
-  padding: 10px;
+  padding: 12px;
   color: #1976d2;
   background-color: #ebebeb;
-  margin-left: 100px;
   border-radius: 8px;
+ margin-left: 12rem;
+
 }
 .input{
   margin: 20px;
-  padding: 6px;
+  padding: 10px;
+  width: 15rem;
+  display: flex;
+  justify-content: center; /* أفقياً */
+  align-items: center; /* عمودياً */
+ margin-left: 8rem;
+
+
 }
 
 @media (max-width: 500px) {

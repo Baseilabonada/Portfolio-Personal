@@ -11,10 +11,10 @@ export default function ImgMediaCard({title,body,image,href,page,namehref}) {
   return (
     <Card sx={{ maxWidth: 545 }} className='card' >
       <CardMedia
-      style={{height:'14rem'}}
+      style={{height:'14rem',width:'20rem',marginLeft:'50px'}}
         component="img"
         alt="green iguana"
-        height="150"
+        height="130"
         image={image}
       />
       <CardContent>
@@ -26,7 +26,7 @@ export default function ImgMediaCard({title,body,image,href,page,namehref}) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button style={{backgroundColor:'#1976D2',color:'white'}} href={href} size="small">{namehref}</Button>
+        <Button style={{backgroundColor:'#1976D2',color:'white'}} href={href} size="large">{namehref}</Button>
       </CardActions>
     </Card>
   );
