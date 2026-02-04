@@ -5,6 +5,8 @@
 لاضافتها لكن ساقوم بتحديثها قريبا انا فقط من اجل التقديم وعدم تضيع المزيد من الفرص
 احب كتابة الكود النظيف واستخدام الادوات المتطورة والمتقدمة
 
+This app is a profile of my personality and the skills I've learned and am still learning. I have projects, but I haven't had enough time to add them yet; I'll update them soon. I'm only posting this to get started and avoid missing out on more opportunities. I enjoy writing clean code and using advanced tools.
+
 ## Available Scripts
 
 In the project directory, you can run:
